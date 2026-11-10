@@ -118,7 +118,7 @@ if (userName != "" && userAge >= 18 && userIsBlocked == false) {
 } else {
   console.log("error");
   if (userName == "") {
-    console.log("no user name");
+    console.log("user has no name");
   }
   if (userAge < 18) {
     console.log("user is underage");
