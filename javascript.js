@@ -26,11 +26,14 @@ const når du definerer variablene.
 ******************************************************************************/
 
 // Skriv koden for oppgave 2 her
+console.log("------------------------------------------------");
+console.log("O 2");
 let str = "string";
 let num = 42;
 let bol = true;
 const arr = [str, num, bol];
-
+console.log(typeof str, typeof num, typeof bol, typeof arr);
+console.log("------------------------------------------------");
 /******************************************************************************
 OPPGAVE 3
 
@@ -42,6 +45,8 @@ Skriv noen eksempler der du tester disse operatorene.
 ******************************************************************************/
 
 // Skriv koden for oppgave 3 her
+console.log("------------------------------------------------");
+console.log("O 3");
 const n1 = 10 * 2;
 const n2 = 10 + 2;
 const s1 = "12";
@@ -82,6 +87,7 @@ if (s1 === n2) {
 } else {
   console.log("=== also checks type");
 }
+console.log("------------------------------------------------");
 
 /******************************************************************************
 OPPGAVE 4
@@ -111,6 +117,8 @@ let userIsBlocked = false;
 let goToPage = "";
 
 // Skriv koden for oppgave 4 her
+console.log("------------------------------------------------");
+console.log("O 4");
 if (userName != "" && userAge >= 18 && userIsBlocked == false) {
   userIsLoggedIn = true;
   goToPage = "/home";
@@ -127,6 +135,7 @@ if (userName != "" && userAge >= 18 && userIsBlocked == false) {
     console.log("user is blocked");
   }
 }
+console.log("------------------------------------------------");
 
 /******************************************************************************
 OPPGAVE 5
@@ -144,6 +153,9 @@ at betingelsen din fungerer som den skal.
 ******************************************************************************/
 
 const userMale = false;
+console.log("------------------------------------------------");
+console.log("O 5");
 const userTitle = userMale ? "Mr." : "Mrs.";
 
 console.log(`user title is: ${userTitle}`);
+console.log("------------------------------------------------");
