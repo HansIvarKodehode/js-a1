@@ -46,6 +46,22 @@ const n1 = 10 * 2;
 const n2 = 10 + 2;
 const s1 = "12";
 
+console.log(n1 + n2);
+console.log(n1 - n2);
+
+console.log(n1);
+console.log(n2);
+let n3 = 0;
+n3 += n1;
+n3 -= n2;
+console.log("n3 = " + n3);
+n3++;
+console.log("n3++ = " + n3);
+n3--;
+console.log("n3-- = " + n3);
+console.log(s1 + n3);
+
+// got a little carried away, and brought in some boolean logic instead
 if (n1 == n2) {
   console.log("That's not right");
 } else {
