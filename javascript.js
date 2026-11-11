@@ -66,7 +66,26 @@ n3--;
 console.log("n3-- = " + n3);
 console.log(s1 + n3);
 
-// got a little carried away, and brought in some boolean logic instead
+s2 = "";
+console.log(typeof s2);
+if (!s2) {
+  console.log(
+    `an empty string is considered to be both false and typeOf ${typeof s2}`,
+  );
+  console.log(
+    "guess that's javascript for you. Not all languages accept that.",
+  );
+  console.log("especially not for other datatypes.");
+} else {
+  console.log(
+    `an empty string is considered to be both true and typeOf ${typeof s2}`,
+  );
+}
+
+console.log("----------------------");
+console.log(
+  "got a little carried away, and brought in some boolean logic instead",
+);
 if (n1 == n2) {
   console.log("That's not right");
 } else {
@@ -87,6 +106,7 @@ if (s1 === n2) {
 } else {
   console.log("=== also checks type");
 }
+
 console.log("----------------------");
 
 /******************************************************************************
